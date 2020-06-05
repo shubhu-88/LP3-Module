@@ -11,6 +11,11 @@ Example 1:
 / \
 1 3
 Binary tree [2,1,3], return true.
+Example 2:
+1
+/ \
+2 3
+Binary tree [1,2,3], return false.
 '''
 class TreeNode(object):
     def __init__(self, x):
