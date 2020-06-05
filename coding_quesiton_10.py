@@ -15,8 +15,7 @@ def selection_sort(alist):
             if alist[j] < alist[smallest]:
                 smallest = j
         alist[i], alist[smallest] = alist[smallest], alist[i]
- 
- 
+
 alist = input().split()
 alist = [int(x) for x in alist]
 selection_sort(alist)
