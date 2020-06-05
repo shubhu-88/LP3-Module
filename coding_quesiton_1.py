@@ -18,9 +18,8 @@ Sample Input
 Sample Output
 5 1 6
 '''
+a,b=map(int,input().split())
 
-a=int(input())
-b=int(input())
-print(a+b)
-print(a-b)
+print(a+b,end=" ")
+print(a-b,end= " ")
 print(a*b)
